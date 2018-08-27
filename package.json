@@ -1,0 +1,20 @@
+{
+  "name": "tag-bot",
+  "version": "1.0.0",
+  "description": "Dead-simple tag bot for Discord servers, cause why tf not.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --ignore commands/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oregonian Pyro#0001",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.0.0",
+    "klaw": "^3.0.0",
+    "moment": "^2.22.2",
+    "path": "^0.12.7"
+  }
+}
